@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="639.0" prefWidth="309.0" style="-fx-border-radius: 20; -fx-background-radius: 30;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainFormController">
+   <children>
+      <ImageView fitHeight="667.0" fitWidth="348.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cal.png" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="22.0" layoutY="244.0" onAction="#onActionC" prefHeight="59.0" prefWidth="55.0" text="." textFill="#807171" />
+      <JFXButton buttonType="RAISED" layoutX="107.0" layoutY="244.0" prefHeight="59.0" prefWidth="55.0" text="." />
+      <JFXButton buttonType="RAISED" layoutX="192.0" layoutY="244.0" onAction="#onActionModules" prefHeight="59.0" prefWidth="55.0" text="." />
+      <JFXButton buttonType="RAISED" layoutX="279.0" layoutY="244.0" onAction="#onActionDevide" prefHeight="59.0" prefWidth="55.0" text="." textFill="#b99817" />
+      <JFXButton buttonType="RAISED" layoutX="22.0" layoutY="321.0" onAction="#onAction7" prefHeight="59.0" prefWidth="55.0" text="." textFill="#807171" />
+      <JFXButton buttonType="RAISED" layoutX="107.0" layoutY="321.0" onAction="#onAction8" prefHeight="59.0" prefWidth="55.0" text="." textFill="#807171" />
+      <JFXButton buttonType="RAISED" layoutX="192.0" layoutY="321.0" onAction="#onAction9" prefHeight="59.0" prefWidth="55.0" text="." textFill="#807171" />
+      <JFXButton buttonType="RAISED" layoutX="22.0" layoutY="394.0" onAction="#onAction4" prefHeight="59.0" prefWidth="55.0" text="." textFill="#807171" />
+      <JFXButton buttonType="RAISED" layoutX="107.0" layoutY="394.0" onAction="#onAction5" prefHeight="59.0" prefWidth="55.0" text="." textFill="#807171" />
+      <JFXButton buttonType="RAISED" layoutX="192.0" layoutY="394.0" onAction="#onAction6" prefHeight="59.0" prefWidth="55.0" text="." textFill="#807171" />
+      <JFXButton buttonType="RAISED" layoutX="22.0" layoutY="471.0" onAction="#onAction1" prefHeight="59.0" prefWidth="55.0" text="." textFill="#807171" />
+      <JFXButton buttonType="RAISED" layoutX="107.0" layoutY="471.0" onAction="#onAction2" prefHeight="59.0" prefWidth="55.0" text="." textFill="#807171" />
+      <JFXButton buttonType="RAISED" layoutX="192.0" layoutY="471.0" onAction="#onAction3" prefHeight="59.0" prefWidth="55.0" text="." textFill="#807171" />
+      <JFXButton buttonType="RAISED" layoutX="22.0" layoutY="557.0" onAction="#onAction0" prefHeight="59.0" prefWidth="140.0" text="." textFill="#807171" />
+      <JFXButton buttonType="RAISED" layoutX="192.0" layoutY="547.0" onAction="#onActionDot" prefHeight="59.0" prefWidth="55.0" text="." textFill="#807171" />
+      <JFXButton buttonType="RAISED" layoutX="279.0" layoutY="321.0" onAction="#onActionMulti" prefHeight="59.0" prefWidth="55.0" text="." textFill="#b99817" />
+      <JFXButton buttonType="RAISED" layoutX="279.0" layoutY="394.0" onAction="#onActionSubs" prefHeight="59.0" prefWidth="55.0" text="." textFill="#b99817" />
+      <JFXButton buttonType="RAISED" layoutX="279.0" layoutY="471.0" onAction="#onActionAddition" prefHeight="59.0" prefWidth="55.0" text="." textFill="#b99817" />
+      <JFXButton buttonType="RAISED" layoutX="279.0" layoutY="547.0" onAction="#onActionEqual" prefHeight="59.0" prefWidth="55.0" text="." textFill="#b99817" />
+      <Label fx:id="lblDisplay" layoutX="275.0" layoutY="151.0" prefHeight="56.0" prefWidth="63.0" textFill="#e1d3d3">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblvalue" layoutX="127.0" layoutY="40.0" prefHeight="29.0" prefWidth="130.0" textFill="#d3cbcb">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
